@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ContextParent from './ContextParent';
 import Login from './Login';
 ReactDOM.render(
   <App></App>,
+  // <ContextParent></ContextParent>,
   document.getElementById('root')
 );
 
