@@ -5,9 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Login from './Login';
 ReactDOM.render(
-  
-    <App></App>
-  ,
+  <App></App>,
   document.getElementById('root')
 );
 
