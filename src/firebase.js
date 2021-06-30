@@ -8,7 +8,7 @@ let auth =firebase.auth();
 export default auth;
 export const firestore=firebase.firestore();
 export const database={
-    users:firebase.collection("users"),
+    users:firestore.collection("users"),
     getUserTimeStamp:firebase.firestore.FieldValue.serverTimestamp
 }
 

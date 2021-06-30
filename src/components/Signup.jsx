@@ -14,7 +14,7 @@ function Signup(props) {
       let file=e?.target?.files[0];
       if(file!=null){
           console.log(e.target.files[0]);
-          setFile(e.target.file[0]);
+          setFile(e.target.files[0]);
 
       }
   }
