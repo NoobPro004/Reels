@@ -6,8 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import ContextParent from './ContextParent';
 import Login from './Login';
 import Material from './Material';
+import IntersectionDemo from './intersectionObserver/IntersectionDemo'
 ReactDOM.render(
+
   <App></App>,
+  // <IntersectionDemo></IntersectionDemo>,
+
   // <Material></Material>,
   // <ContextParent></ContextParent>,
   document.getElementById('root')

@@ -41,12 +41,13 @@ function Signup(props) {
 
          async function fn3(){
            let downloadurl =await uploadTaskListner.snapshot.ref.getDownloadURL();
-           database.users.doc(uid).get({
+           database.users.doc(uid).set({
                email:email,
                userId:uid,
                username:username,
                createdAt:database.getUserTimeStamp(),
-               profileUrl:downloadurl
+               profileUrl:downloadurl,
+               postIds:[]
            })
            setLoader(false);
            props.history.push("/");
